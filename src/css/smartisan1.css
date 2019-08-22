@@ -1,4 +1,108 @@
+body, p, h1, h2, h4, h5, h6, h3, ul, ol, dl, td, dd, input, textarea, option, hr, button, fieldset, legend, figure {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+a:link {
+  color: #666; }
+
+a:hover {
+  color: #333; }
+
+li {
+  list-style: none; }
+
 body {
-  background: red; }
+  font: 14px "YaHei"; }
+
+img {
+  vertical-align: top;
+  /*display:block;*/
+  border: none; }
+
+input, area {
+  outline: none; }
+
+i, em {
+  font-style: normal; }
+
+h1, h2, h4, h5, h6, h3, b, strong {
+  font-weight: normal; }
+
+table {
+  border-collapse: collapse; }
+
+.clear:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.border0 {
+  border: none !important;
+  background: none !important; }
+
+.nav-global {
+  background-image: linear-gradient(90deg, #222325, #3b3c3f, #222325);
+  position: relative;
+  height: 37px; }
+  .nav-global .nav-logo {
+    float: left;
+    margin-top: -5px;
+    background: red; }
+    .nav-global .nav-logo .a {
+      display: block;
+      width: 18px;
+      height: 18px; }
+    .nav-global .nav-logo .img {
+      width: 18px;
+      height: 18px; }
+  .nav-global .container {
+    width: 1220px;
+    height: 37px;
+    margin: 0 150px 0 150px;
+    background: red;
+    position: fixed; }
+    .nav-global .container .nav-list {
+      float: left;
+      width: 823px;
+      height: 28px;
+      font-size: 14px; }
+      .nav-global .container .nav-list .li {
+        float: left; }
+
+.footer {
+  height: 354px;
+  background: #fff;
+  display: block;
+  bottom: 0;
+  font-size: 14px;
+  position: fixed; }
+  .footer .container {
+    background: skyblue;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 150px 0 150px;
+    width: 1220px; }
+    .footer .container .siteinfo {
+      width: 1220px;
+      height: 108px;
+      display: block;
+      position: relative;
+      padding: 60px 0 55px;
+      border-bottom: 1px solid #e6e6e6;
+      font-size: 14px;
+      background: pink; }
 
 /*# sourceMappingURL=smartisan1.css.map */
