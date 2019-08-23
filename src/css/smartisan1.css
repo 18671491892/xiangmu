@@ -139,6 +139,153 @@ table {
   color: skyblue;
 }
 
+#myCarousel {
+  width: 1220px;
+  height: 553px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.goods {
+  width: 1220px;
+  height: 489px;
+  margin: 0 auto;
+  background: #666;
+  border-radius: 15px;
+  clear: both;
+}
+
+.goods .head {
+  width: 1220px;
+  height: 61px;
+  background: #fafafa;
+  color: #666;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  overflow: hidden;
+}
+
+.goods .head .left {
+  width: 200px;
+  height: 61px;
+  margin-left: 25px;
+  line-height: 61px;
+  float: left;
+}
+
+.goods .head .left h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 61px;
+}
+
+.goods .head .right {
+  float: right;
+  height: 61px;
+}
+
+.goods .head .right .zuo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-top: 50%;
+}
+
+.goods .head .right .you {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-top: 50%;
+}
+
+.goods .banner {
+  width: 1220px;
+  height: 428px;
+  cursor: pointer;
+}
+
+.goods .banner .one {
+  width: 25%;
+  height: 428px;
+  float: left;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
+.goods .banner .one .top {
+  width: 70px;
+  height: 20px;
+  color: #a06e37;
+  background: #fffbdf;
+  border-color: #d5b480;
+  text-align: center;
+  margin-left: 220px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  border: 1px solid #e6e6e6;
+  border-radius: 13px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.goods .banner .one .ph {
+  display: block;
+  width: 216px;
+  height: 216px;
+  margin: 0 auto;
+  padding: 18px 0 20px;
+}
+
+.goods .banner .one .ph img {
+  width: 216px;
+  height: 216px;
+}
+
+.goods .banner .one .text {
+  width: 288px;
+  height: 16px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.goods .banner .one .text h4 {
+  line-height: 1.2;
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.goods .banner .one .text2 {
+  width: 288px;
+  height: 16px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner:hover {
+  -webkit-box-shadow: inset 6px #666;
+          box-shadow: inset 6px #666;
+}
+
+.goods1 {
+  width: 1220px;
+  height: 489px;
+  margin: 0 auto;
+  background: skyblue;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
 .redbag {
   width: 189px;
   height: 251px;

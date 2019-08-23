@@ -11,6 +11,12 @@ a {
   cursor: pointer;
 }
 
+input::-webkit-input-placeholder {
+  color: #aab2bd;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
 body {
   background: url(../img/bg.png);
   height: 850px;
@@ -124,10 +130,9 @@ body {
   width: 46px;
   height: 46px;
   float: left;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
-  border-radius: 5px;
+  border: 1px solid #000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   background-image: url(../img/dialog-input-icons_ff627ad6dc@2x.png);
   background-size: cover;
   background-position: -97px 0px;

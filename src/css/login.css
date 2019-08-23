@@ -67,6 +67,12 @@ table {
   background: none !important;
 }
 
+input::-webkit-input-placeholder {
+  color: #aab2bd;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
 body {
   background: url(../img/bg.png);
 }

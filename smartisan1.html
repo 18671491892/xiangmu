@@ -9,6 +9,7 @@
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../JQ/jquery-1.11.3.js"></script>
+    
 </head>
 
 <body>
@@ -55,75 +56,104 @@
 
 
         <!-- 轮播图 -->
-
-        <!-- <div class="boss">
-            <div class="box">
-                <img class="lb" src="./src/img/bg1.jpg" alt="">
-                <img src="./src/img/bg2.jpg" alt="">
-            </div>
-            <ul class="foot">
-                <li class="lb"></li>
-                <li></li>
-            </ul>
-        </div> -->
-
-
-
-        <div id="myCarousel" class="carousel slide">
-                <!-- 轮播（Carousel）指标 -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                </ol>   
-                <!-- 轮播（Carousel）项目 -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="./src/img/bg1.jpg" alt="First slide">
-                    </div>
-                    <div class="item">
-                        <img src="./src/img/bg2.jpg" alt="Second slide">
-                    </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1000" data-pause="hover">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./src/img/bg1.jpg" alt="First slide">
                 </div>
-            </div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <div class="banner2">
-            489
+                <div class="item">
+                    <img src="./src/img/bg2.jpg" alt="Second slide">
+                </div>
+            </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div class="goods">
+            <div class="head">
+                <div class="left">
+                    <h5>热门商品</h5>
+                </div>
+                <div class="right">
+                    <button class="zuo"><</button>
+                    <button class="you">></button>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="one">
+                    <div class="top">
+                        限时秒杀
+                    </div>
+                    <div class="ph">
+                        <img src="./src/img/goods1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Smartisan&nbsp;帆布鞋</h4>
+                    </div>
+                    <div class="text2">
+                        <h6>一双踏实、舒适的帆布鞋</h6>
+                    </div>
+                   
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="foot">
+                        <i>￥</i><span>149.00</span>
+                    </div>
+                </div>
+                <div class="one">
+
+                </div>
+                <div class="one">
+
+                </div>
+                <div class="one">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="goods1">
             489
         </div>
 
 
-        <div class="goods2">
+        <!-- <div class="goods2">
             917
-        </div>
+        </div> -->
 
-        <div class="goods3">
+        <!-- <div class="goods3">
             489
-        </div>
+        </div> -->
 
-        <div class="goods4">
+        <!-- <div class="goods4">
             917
-        </div>
+        </div> -->
 
-        <div class="goods5">
+        <!-- <div class="goods5">
             365
         </div> -->
         <div class="redbag" onclick="window.open('./login.html')"></div>
