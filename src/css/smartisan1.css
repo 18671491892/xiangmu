@@ -1,108 +1,228 @@
 body, p, h1, h2, h4, h5, h6, h3, ul, ol, dl, td, dd, input, textarea, option, hr, button, fieldset, legend, figure {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 a {
   text-decoration: none;
-  color: #666; }
+  color: #666;
+}
 
 a:link {
-  color: #666; }
+  color: #666;
+}
 
 a:hover {
-  color: #333; }
+  color: #333;
+}
 
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 body {
-  font: 14px "YaHei"; }
+  font: 14px "YaHei";
+}
 
 img {
   vertical-align: top;
   /*display:block;*/
-  border: none; }
+  border: none;
+}
 
 input, area {
-  outline: none; }
+  outline: none;
+}
 
 i, em {
-  font-style: normal; }
+  font-style: normal;
+}
 
 h1, h2, h4, h5, h6, h3, b, strong {
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 table {
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
 .clear:after {
   content: ".";
   display: block;
   clear: both;
   height: 0;
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 .fl {
-  float: left; }
+  float: left;
+}
 
 .fr {
-  float: right; }
+  float: right;
+}
 
 .border0 {
   border: none !important;
-  background: none !important; }
+  background: none !important;
+}
+
+#boss {
+  width: 100%;
+}
 
 .nav-global {
+  background-image: -webkit-gradient(linear, left top, right top, from(#222325), color-stop(#3b3c3f), to(#222325));
   background-image: linear-gradient(90deg, #222325, #3b3c3f, #222325);
-  position: relative;
-  height: 37px; }
-  .nav-global .nav-logo {
-    float: left;
-    margin-top: -5px;
-    background: red; }
-    .nav-global .nav-logo .a {
-      display: block;
-      width: 18px;
-      height: 18px; }
-    .nav-global .nav-logo .img {
-      width: 18px;
-      height: 18px; }
-  .nav-global .container {
-    width: 1220px;
-    height: 37px;
-    margin: 0 150px 0 150px;
-    background: red;
-    position: fixed; }
-    .nav-global .container .nav-list {
-      float: left;
-      width: 823px;
-      height: 28px;
-      font-size: 14px; }
-      .nav-global .container .nav-list .li {
-        float: left; }
+  height: 37px;
+}
+
+.nav-global .nav-logo {
+  width: 18px;
+  height: 18px;
+  background: url(../img/logo.557a1159a7b50cad819b869ebbe5051a.png);
+  background-size: 18px 18px;
+  top: 10px;
+  left: 20px;
+  float: left;
+}
+
+.nav-global .nav {
+  width: 1220px;
+  height: 37px;
+  background: red;
+  margin: 0 auto;
+}
+
+.nav-global .nav .ul {
+  height: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  clear: both;
+}
+
+.nav-global .nav .ul .li {
+  float: left;
+}
+
+.sub {
+  height: 75px;
+  background: skyblue;
+}
+
+.sub .sub-center {
+  width: 1220px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.sub .sub-center .left {
+  width: 610px;
+  height: 75px;
+}
+
+.sub .sub-center .left .ul {
+  list-style: none;
+}
+
+.sub .sub-center .left .ul .li {
+  display: block;
+  float: left;
+}
+
+.sub .sub-center .left .ul .li .a {
+  color: #fff;
+}
+
+.sub .sub-center .left .ul .li .a:hover {
+  color: skyblue;
+}
+
+.redbag {
+  width: 189px;
+  height: 251px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 111;
+  background: url(../img/ee595541711b805cc4d9dcd713aa74da.png);
+  background-size: 189px 251px;
+  cursor: pointer;
+}
 
 .footer {
-  height: 354px;
+  height: 440px;
   background: #fff;
-  display: block;
   bottom: 0;
-  font-size: 14px;
-  position: fixed; }
-  .footer .container {
-    background: skyblue;
-    display: block;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 0 150px 0 150px;
-    width: 1220px; }
-    .footer .container .siteinfo {
-      width: 1220px;
-      height: 108px;
-      display: block;
-      position: relative;
-      padding: 60px 0 55px;
-      border-bottom: 1px solid #e6e6e6;
-      font-size: 14px;
-      background: pink; }
+}
 
+.footer .center {
+  height: 440px;
+  width: 1220px;
+  border-top: 1px solid gray;
+  margin: 0 auto;
+}
+
+.footer .center .top {
+  width: 1220px;
+  height: 281px;
+  overflow: hidden;
+}
+
+.footer .center .top .box1 {
+  width: 174px;
+  height: 280px;
+  float: left;
+}
+
+.footer .center .top .box2 {
+  width: 174px;
+  height: 280px;
+  float: left;
+}
+
+.footer .center .top .box3 {
+  width: 174px;
+  height: 280px;
+  float: left;
+}
+
+.footer .center .top .box4 {
+  width: 174px;
+  height: 280px;
+  float: left;
+}
+
+.footer .center .top .box5 {
+  width: 196px;
+  height: 280px;
+  float: right;
+}
+
+.footer .center .top .box5 .head {
+  font-size: 24px;
+  text-indent: 19px;
+}
+
+.footer .center .top .box5 .text1 {
+  text-indent: 67px;
+  font-size: 12px;
+}
+
+.footer .center .top .box5 .text2 {
+  text-indent: 128px;
+  font-size: 12px;
+}
+
+.footer .center .top .box5 .help {
+  width: 130px;
+  height: 30px;
+  background: #f5f5f5;
+  border: 1px solid gray;
+  border-radius: 3px;
+  line-height: 30px;
+  text-align: center;
+  float: right;
+}
 /*# sourceMappingURL=smartisan1.css.map */

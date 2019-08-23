@@ -14,38 +14,64 @@ table{border-collapse: collapse;}
 .fr{float:right;}
 .border0{border:none!important;background: none!important;}
 
+#boss{
+    width: 100%;
+
+}
+
 .nav-global{
     background-image: linear-gradient(90deg,#222325,#3b3c3f,#222325);
-    position: relative;
     height: 37px;
+    
     .nav-logo{
-        float: left;
-        margin-top: -5px;
-        background: red;
-        .a{
-            display: block;
-            width: 18px;
-            height: 18px;
-        }
-        .img{
-            width: 18px;
-            height: 18px;
-        }
+       width: 18px;
+       height: 18px;      
+       background: url(../img/logo.557a1159a7b50cad819b869ebbe5051a.png);
+       background-size: 18px 18px;
+       top: 10px;
+       left: 20px;
+       float: left;
     }
-    .container{
+    .nav{
         width: 1220px;
         height: 37px;
-        margin: 0 150px 0 150px;
         background: red;
-        position: fixed;
-        .nav-list{
-            float: left;
-            width: 823px;
-            height: 28px;
-            font-size: 14px;
+        margin: 0 auto;
+        .ul{
+            height: 37px;
+            display: flex;
+            clear: both;
             .li{
                 float: left;
-                
+            }
+        }
+        
+    }
+}
+
+
+.sub{
+    height: 75px;
+    background: skyblue;
+    .sub-center{
+        width: 1220px;
+        height: 75px;
+        margin: 0 auto;
+        .left{
+            width: 610px;
+            height: 75px;
+            .ul{
+                list-style: none;
+                .li{
+                    display: block;
+                    float: left;
+                    .a{
+                        color:#fff;
+                    }
+                    .a:hover{
+                        color:skyblue;
+                    }
+                }
             }
         }
     }
@@ -55,41 +81,82 @@ table{border-collapse: collapse;}
 
 
 
-
-
-
-
-
-
-
-.footer{
-    height: 354px;
-    background: #fff;
-    display: block;
-    bottom: 0;
-    font-size: 14px;
+.redbag{
+    width: 189px;
+    height: 251px;
     position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 111;
+    background: url(../img/ee595541711b805cc4d9dcd713aa74da.png);
+    background-size: 189px 251px;
+    cursor: pointer;
+}
+.footer{
+    height: 440px;
+    background: #fff;
+    bottom: 0;
     
-    .container{
-       background: skyblue;
-       display: block;
-       font-size: 14px;
-       line-height: 16px;
-       margin: 0 150px 0 150px;
-       
-       width: 1220px;
-       .siteinfo{
-           width: 1220px;
-           height: 108px;
-           display: block;
-           position: relative;
-           padding: 60px 0 55px;
-           border-bottom: 1px solid #e6e6e6;
-           font-size: 14px;
-           background: pink;
-           .nav-footer{
-           
-           }
-       }
+    .center{
+        height: 440px;
+        width: 1220px;
+        
+        border-top: 1px solid gray;
+        
+        
+        margin: 0 auto;
+        .top{
+            width: 1220px;
+            height: 281px;
+            overflow: hidden;
+            .box1{
+                width: 174px;
+                height: 280px;
+                float: left;
+            }
+            .box2{
+                width: 174px;
+                height: 280px;
+                float: left;
+            }
+            .box3{
+                width: 174px;
+                height: 280px;
+                float: left;
+            }
+            .box4{
+                width: 174px;
+                height: 280px;
+                float: left;
+            }
+            .box5{
+                width: 196px;
+                height: 280px;
+                float: right;
+                .head{
+                    font-size: 24px;
+                    text-indent: 19px;
+                }
+                .text1{
+                    text-indent: 67px;
+                    font-size: 12px;
+                }
+                .text2{
+                    text-indent: 128px;
+                    font-size: 12px;
+                }
+                .help{
+                    width: 130px;
+                    height: 30px;
+                    background: #f5f5f5;
+                    border: 1px solid gray;
+                    border-radius: 3px;
+                    line-height: 30px;
+                    text-align: center;
+                    float: right;
+                }
+            }
+        }
+        
     }
 }

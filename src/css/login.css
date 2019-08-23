@@ -1,59 +1,75 @@
 body, p, h1, h2, h4, h5, h6, h3, ul, ol, dl, td, dd, input, textarea, option, hr, button, fieldset, legend, figure {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 a {
   text-decoration: none;
-  color: #666; }
+  color: #666;
+}
 
 a:link {
-  color: #666; }
+  color: #666;
+}
 
 a:hover {
-  color: #333; }
+  color: #333;
+}
 
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 body {
-  font: 14px "YaHei"; }
+  font: 14px "YaHei";
+}
 
 img {
   vertical-align: top;
   /*display:block;*/
-  border: none; }
+  border: none;
+}
 
 input, area {
-  outline: none; }
+  outline: none;
+}
 
 i, em {
-  font-style: normal; }
+  font-style: normal;
+}
 
 h1, h2, h4, h5, h6, h3, b, strong {
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 table {
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
 .clear:after {
   content: ".";
   display: block;
   clear: both;
   height: 0;
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 .fl {
-  float: left; }
+  float: left;
+}
 
 .fr {
-  float: right; }
+  float: right;
+}
 
 .border0 {
   border: none !important;
-  background: none !important; }
+  background: none !important;
+}
 
 body {
-  background: url(../img/bg.png); }
+  background: url(../img/bg.png);
+}
 
 .box {
   width: 450px;
@@ -67,177 +83,207 @@ body {
   left: 50%;
   margin-left: -225px;
   position: absolute;
-  box-shadow: 0 0 20px #666; }
-  .box .title {
-    position: relative;
-    background-image: url(../img/big.png);
-    background-size: 160px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    height: 92px;
-    margin: 23px 0 50px;
-    padding: 75px 0 0;
-    box-shadow: none; }
-    .box .title .ng {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      border-bottom: 0;
-      line-height: 1em;
-      height: auto;
-      color: #333; }
-  .box .down {
-    width: 370px;
-    height: 287.4px;
-    padding: 0 40px 22px;
-    margin: 0;
-    border: 0;
-    font-size: 100%; }
-    .box .down .first {
-      width: 366px;
-      height: 46px;
-      border: 1px solid #000;
-      border-radius: 5px;
-      box-shadow: inset 0 0 3px #666; }
-      .box .down .first .person {
-        width: 46px;
-        height: 46px;
-        float: left;
-        border-right: 1px solid #000;
-        background-image: url(../img/dialog-input-icons_ff627ad6dc@2x.png);
-        background-size: cover;
-        background-position: -4px 0px; }
-      .box .down .first .tel {
-        width: 300px;
-        height: 40px;
-        float: left;
-        border: none; }
-    .box .down .two {
-      width: 366px;
-      height: 46px;
-      border: 1px solid #000;
-      border-radius: 5px;
-      box-shadow: inset 0 0 3px #666;
-      margin-top: 16px; }
-      .box .down .two .pwd {
-        width: 46px;
-        height: 46px;
-        float: left;
-        border-right: 1px solid #000;
-        background-image: url(../img/dialog-input-icons_ff627ad6dc@2x.png);
-        background-size: cover;
-        background-position: -48px 0px; }
-      .box .down .two .password {
-        width: 300px;
-        height: 40px;
-        float: left;
-        border: none; }
-    .box .down .check {
-      width: 70px;
-      height: 12px;
-      float: left;
-      font-size: 12px; }
-    .box .down .rigth {
-      width: 170px;
-      height: 12px;
-      float: left;
-      margin-left: 50px;
-      font-size: 12px; }
-    .box .down .btn {
-      width: 370px;
-      height: 48px;
-      background-color: skyblue;
-      border: none;
-      border-radius: 5px; }
-    .box .down .foot {
-      width: 370px;
-      height: 17.4px;
-      border-top: 1px solid gray;
-      bottom: 0;
-      margin-top: 40px; }
-      .box .down .foot .icon {
-        display: block;
-        width: 219px;
-        height: 17px;
-        font-size: 12px; }
-        .box .down .foot .icon .text {
-          color: gray;
-          float: left; }
-        .box .down .foot .icon .wechat {
-          float: left;
-          width: 20px;
-          height: 17px;
-          background-image: url(../img/icons-hover_7b3065c847@2x.png);
-          background-size: cover;
-          background-position: 0px 0px;
-          cursor: pointer; }
-        .box .down .foot .icon .weibo {
-          float: left;
-          width: 20px;
-          height: 17px;
-          background-image: url(../img/icons-hover_7b3065c847@2x.png);
-          background-size: cover;
-          background-position: -30px 0px;
-          cursor: pointer; }
-        .box .down .foot .icon .qq {
-          float: left;
-          width: 20px;
-          height: 17px;
-          background-image: url(../img/icons-hover_7b3065c847@2x.png);
-          background-size: cover;
-          background-position: -60px 0px;
-          cursor: pointer; }
-        .box .down .foot .icon .alipay {
-          float: left;
-          width: 20px;
-          height: 17px;
-          background-image: url(../img/icons-hover_7b3065c847@2x.png);
-          background-size: cover;
-          background-position: -90px 0px;
-          cursor: pointer;
-          display: block; }
+  -webkit-box-shadow: 0 0 20px #666;
+          box-shadow: 0 0 20px #666;
+}
+
+.box .title {
+  position: relative;
+  background-image: url(../img/big.png);
+  background-size: 160px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 92px;
+  margin: 23px 0 50px;
+  padding: 75px 0 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.box .title .ng {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-bottom: 0;
+  line-height: 1em;
+  height: auto;
+  color: #333;
+}
+
+.box .down {
+  width: 370px;
+  height: 287.4px;
+  padding: 0 40px 22px;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.box .down .first {
+  width: 366px;
+  height: 46px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 3px #666;
+          box-shadow: inset 0 0 3px #666;
+}
+
+.box .down .first .person {
+  width: 46px;
+  height: 46px;
+  float: left;
+  border-right: 1px solid #000;
+  background-image: url(../img/dialog-input-icons_ff627ad6dc@2x.png);
+  background-size: cover;
+  background-position: -4px 0px;
+}
+
+.box .down .first .tel {
+  width: 300px;
+  height: 40px;
+  float: left;
+  border: none;
+}
+
+.box .down .two {
+  width: 366px;
+  height: 46px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 3px #666;
+          box-shadow: inset 0 0 3px #666;
+  margin-top: 16px;
+}
+
+.box .down .two .pwd {
+  width: 46px;
+  height: 46px;
+  float: left;
+  border-right: 1px solid #000;
+  background-image: url(../img/dialog-input-icons_ff627ad6dc@2x.png);
+  background-size: cover;
+  background-position: -48px 0px;
+}
+
+.box .down .two .password {
+  width: 300px;
+  height: 40px;
+  float: left;
+  border: none;
+}
+
+.box .down .check {
+  width: 70px;
+  height: 12px;
+  float: left;
+  font-size: 12px;
+}
+
+.box .down .rigth {
+  width: 170px;
+  height: 12px;
+  float: left;
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+.box .down .rigth span {
+  text-indent: 50px;
+}
+
+.box .down .btn {
+  width: 370px;
+  height: 48px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+}
+
+.box .down .foot {
+  width: 370px;
+  height: 17.4px;
+  border-top: 1px solid gray;
+  bottom: 0;
+  margin-top: 40px;
+}
+
+.box .down .foot .icon {
+  display: block;
+  width: 219px;
+  height: 17px;
+  font-size: 12px;
+}
+
+.box .down .foot .icon .text {
+  color: gray;
+  float: left;
+}
+
+.box .down .foot .icon .wechat {
+  float: left;
+  width: 20px;
+  height: 17px;
+  background-image: url(../img/icons-hover_7b3065c847@2x.png);
+  background-size: cover;
+  background-position: 0px 0px;
+  cursor: pointer;
+}
+
+.box .down .foot .icon .weibo {
+  float: left;
+  width: 20px;
+  height: 17px;
+  background-image: url(../img/icons-hover_7b3065c847@2x.png);
+  background-size: cover;
+  background-position: -30px 0px;
+  cursor: pointer;
+}
+
+.box .down .foot .icon .qq {
+  float: left;
+  width: 20px;
+  height: 17px;
+  background-image: url(../img/icons-hover_7b3065c847@2x.png);
+  background-size: cover;
+  background-position: -60px 0px;
+  cursor: pointer;
+}
+
+.box .down .foot .icon .alipay {
+  float: left;
+  width: 20px;
+  height: 17px;
+  background-image: url(../img/icons-hover_7b3065c847@2x.png);
+  background-size: cover;
+  background-position: -90px 0px;
+  cursor: pointer;
+  display: block;
+}
 
 .copyright {
-  display: block;
   width: 100%;
   clear: both;
   color: #434d55;
   font-size: 12px;
-  padding: 0 0 10px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  text-align: center; }
-  .copyright .clearfix {
-    display: inline-block;
-    margin: 0 auto; }
-    .copyright .clearfix .h2 {
-      float: left;
-      height: 15px;
-      line-height: 15px;
-      color: #757575; }
-    .copyright .clearfix .privacy {
-      float: left;
-      margin: 0 0 0 9px;
-      display: block; }
-      .copyright .clearfix .privacy .li {
-        float: left;
-        font-weight: 300;
-        line-height: 12px;
-        padding: 1px 10px 0;
-        border-left: 1px solid #ccc; }
-        .copyright .clearfix .privacy .li .a {
-          color: #5079d9;
-          cursor: pointer;
-          text-decoration: none; }
-  .copyright .h4 {
-    clear: both;
-    padding: 10px 0 0; }
-    .copyright .h4 .a {
-      color: #5079d9;
-      cursor: pointer;
-      text-decoration: none; }
+  text-align: center;
+}
 
+.copyright .clearfix {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.copyright .h4 {
+  clear: both;
+  padding: 10px 0 0;
+}
+
+.copyright .h4 span {
+  color: #5079D9;
+}
 /*# sourceMappingURL=login.css.map */

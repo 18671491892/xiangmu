@@ -8,20 +8,18 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
+    <script src="../JQ/jquery-1.11.3.js"></script>
 </head>
 
 <body>
     <div id="boss">
         <div class="nav-global">
-            <h1 class="nav-logo">
+            <div class="nav-logo">
                 <a href="smartisan1.html" title="锤子商城"></a>
-                <img src="./src/img/smartisan_logo.png" alt="">
-            </h1>
-            <div class="container">
-                <ul class="nav-list">
-                    <li> <a class="active" title="在线商城" href="smartisan1.html" target=""> 在线商城 </a> </li>
+            </div>
+            <div class="nav">
+                <!-- <ul>
+                    <li> <a title="在线商城" href="smartisan1.html" target=""> 在线商城 </a> </li>
                     <li> <a title="坚果 Pro 2S" href="pro2s.html" target=""> 坚果 Pro 2S </a> </li>
                     <li> <a title="坚果 R1" href="R1.html" target=""> 坚果 R1</a> </li>
                     <li> <a title="坚果 TNT 工作站" href="TNT.html" target=""> 坚果 TNT 工作站 </a> </li>
@@ -30,87 +28,151 @@
                     <li> <a title="应用" href="app.html" target=""> 应用 </a></li>
                     <li> <a title="论坛" href="bbs.html" target=""> 论坛 </a> </li>
                     <li> <a title="荣誉与奖项" href="awards.html" target=""> 荣誉与奖项 </a> </li>
-                </ul>
+                 </ul> -->
             </div>
 
         </div>
 
 
 
+        <div class="sub">
+            <!-- <div class="sub-center">
+                <div class="left">
+                    <ul>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">手机</a></li>
+                        <li><a href="">官方配件</a></li>
+                        <li><a href="">服饰箱包</a></li>
+                        <li><a href="">畅呼吸</a></li>
+                        <li><a href="">服务</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+
+                </div>
+            </div> -->
+        </div>
+
+
+        <!-- 轮播图 -->
+
+        <!-- <div class="boss">
+            <div class="box">
+                <img class="lb" src="./src/img/bg1.jpg" alt="">
+                <img src="./src/img/bg2.jpg" alt="">
+            </div>
+            <ul class="foot">
+                <li class="lb"></li>
+                <li></li>
+            </ul>
+        </div> -->
+
+
+
+        <div id="myCarousel" class="carousel slide">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>   
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="./src/img/bg1.jpg" alt="First slide">
+                    </div>
+                    <div class="item">
+                        <img src="./src/img/bg2.jpg" alt="Second slide">
+                    </div>
+                </div>
+            </div> 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="banner2">
+            489
+        </div>
+
+        <div class="goods">
+            489
+        </div>
+
+
+        <div class="goods2">
+            917
+        </div>
+
+        <div class="goods3">
+            489
+        </div>
+
+        <div class="goods4">
+            917
+        </div>
+
+        <div class="goods5">
+            365
+        </div> -->
+        <div class="redbag" onclick="window.open('./login.html')"></div>
         <div class="footer">
-            <div class="container">
-                <div class="siteinfo">
-                    <ul class="nav-footer">
-                        <li>
-                            <h3>订单服务 </h3>
-                            <ul>
-                                <li> <a href="//www.smartisan.com/support/#/instruction">购买指南</a> </li>
-                                <li> <a href="//www.smartisan.com/support/#/delivery">送货政策</a> </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h3>服务支持 </h3>
-                            <ul>
-                                <li> <a href="//www.smartisan.com/service/#/">自助服务</a>
-                                </li>
-                                <li> <a href="//www.smartisan.com/support/#/self-service">使用帮助</a> </li>
-                                <li> <a href="//www.smartisan.com/support/#/servicelist">维修门店</a> </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h3>媒体中心 </h3>
-                            <ul>
-                                <li> <a href="//www.smartisan.com/pr/news-center">新闻动态</a>
-                                </li>
-                                <li> <a href="//www.smartisan.com/pr/videos">官方视频</a>
-                                </li>
-                                <li> <a href="//www.smartisan.com/pr/pictures">图片资源</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h3>关注我们</h3>
-                            <ul>
-                                <li><a href="https://weibo.com/wenyiyouth" target="_blank">新浪微博</a></li>
-                                <li class="weixin"> <a>官方微信</a>
-                                    <div class="mask"></div>
-                                    <div class="qrcode">
-                                        <div class="close-btn"></div>
-                                        <h4>官方微信</h4>
-                                        <h6>打开微信，点击右上角的“+”，选择“扫一扫”功能，用摄像头对准下方二维码即可。</h6>
-                                        <div class="qrcode-bg"></div>
-                                    </div>
-                                </li>
-                                <li> <a href="awards.html">荣誉奖项</a> </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="service">
-                        <li class="tel">400 - 626 - 5666</li>
-                        <li class="time">周一到周日 9:00 - 18:00</li>
-                        <li class="desc">(仅收市话费)</li>
-                        <li class="online"> <a href="//www.smartisan.com/support/#/self-service"><span
-                                    class="smartisan-icon info-question"></span>在线帮助</a> </li>
-                    </ul>
+            <div class="center">
+                <div class="top">
+                    <div class="box1">
+                        <h3>订单服务</h3>
+                        <p><a href="//www.smartisan.com/support/#/instruction">购买指南</a></p>
+                        <p><a href="//www.smartisan.com/support/#/delivery">送货政策</a></p>
+                    </div>
+                    <div class="box2">
+                        <h3>服务支持</h3>
+                        <p><a href="//www.smartisan.com/service/#/">自助服务</a></p>
+                        <p><a href="//www.smartisan.com/support/#/self-service">使用帮助</a></p>
+                        <p><a href="//www.smartisan.com/support/#/servicelist">维修门店</a></p>
+                    </div>
+                    <div class="box3">
+                        <h3>媒体中心</h3>
+                        <p><a href="//www.smartisan.com/pr/news-center">新闻动态</a></p>
+                        <p><a href="//www.smartisan.com/pr/videos">官方视频</a></p>
+                        <p><a href="//www.smartisan.com/pr/pictures">图片资源</a></p>
+                    </div>
+                    <div class="box4">
+                        <h3>关注我们</h3>
+                        <p><a href="">新浪微博</a></p>
+                        <p><a href="">官方微信</a></p>
+                        <p><a href="">荣誉奖项</a></p>
+                    </div>
+                    <div class="box5">
+                        <h3 class="head">400 - 626 - 5666</h3>
+                        <p class="text1">周一到周日 9:00 - 18:00</p>
+                        <p class="text2">(仅收市话费)</p>
+                        <div class="help">
+                            <a href="//www.smartisan.com/support/#/self-service">在线帮助</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="copyright">
-                    <h4>Copyright © 2019 smartisan.com 版权所有</h4>
-                    <ul class="privacy">
-                        <li> <a href="//www.smartisan.com/support/#/agreement">法律声明</a>
-                        </li>
-                        <li> <a href="//www.smartisan.com/support/#/privacy">隐私条款</a>
-                        </li>
-                    </ul>
-                    <h6> <a href="http://www.miibeian.gov.cn/" target="_blank">
-                            <span>京 ICP 备 18020659 号 - 2</span> </a> </h6>
+                <div class="down">
+                    <p>Copyright © 2019 smartisan.com 版权所有<a href="//www.smartisan.com/support/#/agreement">法律声明</a><a
+                            href="//www.smartisan.com/support/#/privacy">隐私条款</a></p>
+                    <p><a href="http://www.miibeian.gov.cn/">京ICP备18020659-2</a></p>
                 </div>
             </div>
         </div>
+
+
+
+
     </div>
 </body>
 
