@@ -14,9 +14,10 @@ table{border-collapse: collapse;}
 .fr{float:right;}
 .border0{border:none!important;background: none!important;}
 
+
 #boss{
     width: 100%;
-
+    
 }
 
 .nav-global{
@@ -86,30 +87,87 @@ table{border-collapse: collapse;}
     }
 }
 
-
+//第二个导航、、、、、、、、、、、、、、、、、、、、、、、、、、
 .sub{
     height: 75px;
-    background: skyblue;
+    position: sticky;
+    top: 0;
+    background: #ededed;
     .sub-center{
         width: 1220px;
         height: 75px;
         margin: 0 auto;
+        overflow: hidden;
         .left{
             width: 610px;
             height: 75px;
-            .ul{
+            float: left;
+            ul{
                 list-style: none;
-                .li{
+                li{
                     display: block;
                     float: left;
-                    .a{
-                        color:#fff;
+                    padding: 20px;
+                    a{
+                        color:#000;
+                        text-decoration: none;
                     }
-                    .a:hover{
+                    a:hover{
                         color:skyblue;
                     }
+                   
+                }
+                li:hover ul{
+                    display: block;
                 }
             }
+        }
+
+        .right{
+            width: 400px;
+            height: 75px;
+            float: right;
+            padding-top: 20px;
+            .search{
+                width: 330px;
+                height: 36px;
+                border: 1px solid #666;
+                border-radius: 18px;
+                background: #fff;
+                .img-box{
+                    width: 36px;
+                    height: 36px;
+                    float: left;
+                    img{
+                        
+                        width: 20px;
+                        height: 20px;
+                        padding: 8px 0 0 8px;
+                    }
+                }
+                input{
+                    display: block;
+                    width: 240px;
+                    height: 34px;
+                    float: left;
+                    border: none;
+                }
+                span{
+                    width: 40px;
+                    height: 18px;
+                    display: block;
+                    color: #3965cc;
+                    border: 1px solid #93b2f7;
+                    background: #e5efff; 
+                    float: right;
+                    text-align: center;
+                    line-height: 18px;
+                    border-radius: 9px;
+                    margin-top: 8px;
+                    margin-right: 8px;
+                }
+            }
+           
         }
     }
 }
@@ -1131,23 +1189,7 @@ table{border-collapse: collapse;}
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+///////////红包///////////////////////////////////////////
 
 .redbag{
     width: 189px;
@@ -1160,6 +1202,7 @@ table{border-collapse: collapse;}
     background-size: 189px 251px;
     cursor: pointer;
 }
+///////底部///////////////////////
 .footer{
     height: 440px;
     background: #fff;

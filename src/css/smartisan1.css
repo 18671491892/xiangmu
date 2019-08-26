@@ -149,35 +149,96 @@ table {
 
 .sub {
   height: 75px;
-  background: skyblue;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #ededed;
 }
 
 .sub .sub-center {
   width: 1220px;
   height: 75px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .sub .sub-center .left {
   width: 610px;
   height: 75px;
-}
-
-.sub .sub-center .left .ul {
-  list-style: none;
-}
-
-.sub .sub-center .left .ul .li {
-  display: block;
   float: left;
 }
 
-.sub .sub-center .left .ul .li .a {
-  color: #fff;
+.sub .sub-center .left ul {
+  list-style: none;
 }
 
-.sub .sub-center .left .ul .li .a:hover {
+.sub .sub-center .left ul li {
+  display: block;
+  float: left;
+  padding: 20px;
+}
+
+.sub .sub-center .left ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.sub .sub-center .left ul li a:hover {
   color: skyblue;
+}
+
+.sub .sub-center .left ul li:hover ul {
+  display: block;
+}
+
+.sub .sub-center .right {
+  width: 400px;
+  height: 75px;
+  float: right;
+  padding-top: 20px;
+}
+
+.sub .sub-center .right .search {
+  width: 330px;
+  height: 36px;
+  border: 1px solid #666;
+  border-radius: 18px;
+  background: #fff;
+}
+
+.sub .sub-center .right .search .img-box {
+  width: 36px;
+  height: 36px;
+  float: left;
+}
+
+.sub .sub-center .right .search .img-box img {
+  width: 20px;
+  height: 20px;
+  padding: 8px 0 0 8px;
+}
+
+.sub .sub-center .right .search input {
+  display: block;
+  width: 240px;
+  height: 34px;
+  float: left;
+  border: none;
+}
+
+.sub .sub-center .right .search span {
+  width: 40px;
+  height: 18px;
+  display: block;
+  color: #3965cc;
+  border: 1px solid #93b2f7;
+  background: #e5efff;
+  float: right;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 9px;
+  margin-top: 8px;
+  margin-right: 8px;
 }
 
 #myCarousel {

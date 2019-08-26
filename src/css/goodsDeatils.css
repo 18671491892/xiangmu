@@ -148,6 +148,9 @@ table {
 #boss .container {
   height: 37px;
   background: #f7f7f7;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 #boss .container .center {
@@ -182,6 +185,7 @@ table {
 #boss .content {
   height: 500px;
   margin-top: 53px;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 #boss .content .content-center {
@@ -201,11 +205,8 @@ table {
   width: 500px;
   height: 500px;
   margin: 0 auto;
-}
-
-#boss .content .content-center .imgbox .box img {
-  width: 500px;
-  height: 500px;
+  background-image: url(../img/trunk.png);
+  background-size: 500px 500px;
 }
 
 #boss .content .content-center .detils {
@@ -311,18 +312,545 @@ table {
 #boss .content .content-center .three {
   width: 610px;
   height: 100px;
+  clear: both;
+}
+
+#boss .content .content-center .three .left {
+  width: 85px;
+  height: 100px;
+  float: left;
+}
+
+#boss .content .content-center .three .left span {
+  color: #666;
+  font-size: 14px;
+  margin-top: 30px;
+  display: block;
+}
+
+#boss .content .content-center .three .right {
+  width: 525px;
+  height: 100px;
+  float: left;
   border-bottom: 1px dashed #e8e8e8;
+}
+
+#boss .content .content-center .three .right .box1 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+#boss .content .content-center .three .right .box1 img {
+  display: block;
+  margin-top: 27px;
+  cursor: pointer;
+}
+
+#boss .content .content-center .three .right .box1 span {
+  display: block;
+  margin-left: 50px;
+  margin-top: -34px;
+  font-weight: 700;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#boss .content .content-center .three .right .box2 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+#boss .content .content-center .three .right .box2 img {
+  display: block;
+  margin-top: 27px;
+  cursor: pointer;
+}
+
+#boss .content .content-center .three .right .box2 span {
+  display: block;
+  margin-left: 50px;
+  margin-top: -34px;
+  font-weight: 700;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 #boss .content .content-center .four {
   width: 610px;
   height: 100px;
   border-bottom: 1px solid #e8e8e8;
+  clear: both;
+}
+
+#boss .content .content-center .four .left {
+  width: 85px;
+  height: 100px;
+  float: left;
+}
+
+#boss .content .content-center .four .left span {
+  color: #666;
+  font-size: 14px;
+  margin-top: 30px;
+  display: block;
+}
+
+#boss .content .content-center .four .right {
+  width: 525px;
+  height: 100px;
+  float: left;
+}
+
+#boss .content .content-center .four .right .version {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 15px;
 }
 
 #boss .content .content-center .five {
   width: 610px;
   height: 70px;
+  clear: both;
+}
+
+#boss .content .content-center .five span {
+  color: #666;
+  font-size: 14px;
+  margin-top: 30px;
+  display: block;
+  float: left;
+}
+
+#boss .content .content-center .five .sec-span {
+  font-size: 12px;
+  color: #999;
+  display: block;
+  float: left;
+  margin-left: 40px;
+}
+
+#boss .skill {
+  width: 1220px;
+  height: 147px;
+  margin: 0 auto;
   border-bottom: 1px solid #e8e8e8;
+}
+
+#boss .skill h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: 700;
+  padding: 60px 0;
+}
+
+#boss .imgbox1 {
+  width: 1220px;
+  height: 720px;
+  margin: 0 auto;
+}
+
+#boss .imgbox1 img {
+  width: 1220px;
+  height: 720px;
+}
+
+#boss .imgbox2 {
+  width: 1220px;
+  height: 720px;
+  margin: 0 auto;
+}
+
+#boss .imgbox2 img {
+  width: 1220px;
+  height: 720px;
+}
+
+#boss .imgbox3 {
+  width: 1220px;
+  height: 720px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#boss .imgbox3 img {
+  width: 1220px;
+  height: 720px;
+}
+
+#boss .recommend {
+  width: 1220px;
+  height: 147px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#boss .recommend h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: 700;
+  padding: 60px 0;
+}
+
+#boss .goods {
+  width: 1220px;
+  height: 439px;
+  margin: 0 auto;
+}
+
+#boss .goods ul {
+  width: 1220px;
+  height: 439px;
+  clear: both;
+}
+
+#boss .goods ul li {
+  display: inline;
+  float: left;
+  margin: 0 10px;
+}
+
+#boss .goods ul li .small {
+  width: 297px;
+  height: 428px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  float: left;
+}
+
+#boss .goods ul li .small .block {
+  width: 70px;
+  height: 20px;
+  color: #a06e37;
+  background: #fffbdf;
+  border-color: #d5b480;
+  text-align: center;
+  margin-left: 220px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  border: 1px solid #e6e6e6;
+  border-radius: 13px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+#boss .goods ul li .small .ph {
+  display: block;
+  width: 216px;
+  height: 216px;
+  margin: 0 auto;
+  padding: 18px 0 20px;
+}
+
+#boss .goods ul li .small .ph img {
+  width: 216px;
+  height: 216px;
+}
+
+#boss .goods ul li .small .text {
+  width: 288px;
+  height: 16px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#boss .goods ul li .small .text h4 {
+  line-height: 1.2;
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#boss .goods ul li .small .text2 {
+  width: 288px;
+  height: 16px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#boss .goods ul li .small .foot {
+  font-size: 18px;
+  width: 304px;
+  height: 20px;
+  color: red;
+  margin-top: 50px;
+  text-indent: 110px;
+}
+
+#boss .tips {
+  height: 147px;
+  border-top: 1px solid #e8e8e8;
+}
+
+#boss .tips .center {
+  width: 1220px;
+  height: 147px;
+  margin: 0 auto;
+}
+
+#boss .tips .center .content {
+  width: 1220px;
+  height: 90px;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+
+#boss .tips .center .content span {
+  width: 85px;
+  height: 21px;
+  font-size: 12px;
+  display: block;
+}
+
+#boss .tips .center .content ul {
+  margin-left: 100px;
+  padding-left: 14px;
+  line-height: 1.8;
+  font-size: 12px;
+  color: #999;
+}
+
+#boss .bug {
+  height: 61px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  padding-top: 100px;
+  background: #e8e8e8;
+}
+
+#boss .bug .center {
+  width: 1220px;
+  height: 61px;
+  margin: 0 auto;
+}
+
+#boss .bug .center .choose {
+  width: 61px;
+  height: 61px;
+  float: left;
+}
+
+#boss .bug .center .choose h1 {
+  display: block;
+  color: #333;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+#boss .bug .center .content {
+  width: 250px;
+  height: 61px;
+  float: left;
+  margin-top: 0px;
+  border: none;
+}
+
+#boss .bug .center .content .f-span {
+  color: #333;
+  font-weight: 700;
+}
+
+#boss .bug .center .content .s-span {
+  color: red;
+  font-weight: 700;
+}
+
+#boss .bug .center .content .t-span {
+  font-size: 12px;
+  color: #9d9d9d;
+  text-indent: 1px;
+  display: block;
+}
+
+#boss .bug .center .right {
+  width: 400px;
+  height: 61px;
+  float: right;
+}
+
+#boss .bug .center .right .price {
+  width: 90px;
+  height: 43px;
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #d44d44;
+  line-height: 40px;
+  float: left;
+  margin-top: 10px;
+}
+
+#boss .bug .center .right .buynow {
+  width: 118px;
+  height: 40px;
+  border: 1px solid #e8e8e8;
+  color: #5e5e5e;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  float: left;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+#boss .bug .center .right .addcart {
+  width: 118px;
+  height: 40px;
+  border: 1px solid #e8e8e8;
+  color: #fff;
+  background-color: #5f7ed7;
+  font-size: 20px;
+  font-weight: 700;
+  float: left;
+  border-radius: 6px;
+  margin: 10px 0 0 10px;
+}
+
+#boss .footer {
+  height: 440px;
+  background: #fff;
+  bottom: 0;
+  margin-top: 50px;
+  border-top: 1px solid gray;
+}
+
+#boss .footer .center {
+  height: 440px;
+  width: 1220px;
+  margin: 0 auto;
+}
+
+#boss .footer .center .top {
+  width: 1220px;
+  height: 224px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#boss .footer .center .top .box1 {
+  width: 174px;
+  float: left;
+}
+
+#boss .footer .center .top .box1 h3 {
+  color: #646464;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 0 0 20px;
+}
+
+#boss .footer .center .top .box1 a {
+  font-size: 12px;
+}
+
+#boss .footer .center .top .box2 {
+  width: 174px;
+  float: left;
+}
+
+#boss .footer .center .top .box2 h3 {
+  color: #646464;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 0 0 20px;
+}
+
+#boss .footer .center .top .box2 a {
+  font-size: 12px;
+}
+
+#boss .footer .center .top .box3 {
+  width: 174px;
+  float: left;
+}
+
+#boss .footer .center .top .box3 h3 {
+  color: #646464;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 0 0 20px;
+}
+
+#boss .footer .center .top .box3 a {
+  font-size: 12px;
+}
+
+#boss .footer .center .top .box4 {
+  width: 174px;
+  float: left;
+}
+
+#boss .footer .center .top .box4 h3 {
+  color: #646464;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 0 0 20px;
+}
+
+#boss .footer .center .top .box4 a {
+  font-size: 12px;
+}
+
+#boss .footer .center .top .box5 {
+  width: 196px;
+  float: right;
+}
+
+#boss .footer .center .top .box5 .head {
+  font-size: 24px;
+  text-indent: 6px;
+}
+
+#boss .footer .center .top .box5 .text1 {
+  text-indent: 67px;
+  font-size: 11px;
+}
+
+#boss .footer .center .top .box5 .text2 {
+  text-indent: 128px;
+  font-size: 11px;
+}
+
+#boss .footer .center .top .box5 .help {
+  width: 130px;
+  height: 30px;
+  background: #f5f5f5;
+  border: 1px solid gray;
+  border-radius: 3px;
+  line-height: 30px;
+  text-align: center;
+  float: right;
+}
+
+#boss .footer .center .down {
+  width: 1220px;
+  height: 130px;
+  border-top: 1px solid gray;
+}
+
+#boss .footer .center .down p {
+  margin-top: 50px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #bdbdbd;
 }
 /*# sourceMappingURL=goodsDeatils.css.map */
