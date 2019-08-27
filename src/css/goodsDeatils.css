@@ -238,6 +238,7 @@ table {
   width: 600px;
   height: 600px;
   overflow: hidden;
+  background: #fff;
   display: none;
   border: 1px solid #e8e8e8;
   border-radius: 20px;

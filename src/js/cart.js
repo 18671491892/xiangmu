@@ -1,3 +1,11 @@
+$(".person").click(function(){
+    location.href="register.html";
+})
+$(".cart").click(function(){
+    location.href="login.html";
+})
+
+
 
     //单选全选
     $(".check-all").on("click", function () {

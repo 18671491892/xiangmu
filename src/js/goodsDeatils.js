@@ -1,3 +1,12 @@
+$(".person").click(function(){
+    location.href="register.html";
+})
+$(".cart").click(function(){
+    location.href="login.html";
+})
+
+
+
 $(".mask").mouseover(function () {
     $(".float_layer").show()
     $(".big_box").show()

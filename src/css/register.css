@@ -86,10 +86,11 @@ body {
 }
 
 .box .content .center .one .country {
-  width: 300px;
+  width: 100px;
   height: 40px;
   float: left;
   border: none;
+  outline: none;
 }
 
 .box .content .center .two {
@@ -113,10 +114,11 @@ body {
 }
 
 .box .content .center .two .telphone {
-  width: 300px;
+  width: 130px;
   height: 40px;
   float: left;
   border: none;
+  outline: none;
 }
 
 .box .content .center .three {
@@ -148,6 +150,7 @@ body {
   border: 1px solid #000;
   -webkit-box-shadow: inset 0 0 3px #666;
           box-shadow: inset 0 0 3px #666;
+  outline: none;
 }
 
 .box .content .center .three .btn {
@@ -179,10 +182,11 @@ body {
 }
 
 .box .content .center .four .password {
-  width: 300px;
+  width: 100px;
   height: 40px;
   float: left;
   border: none;
+  outline: none;
 }
 
 .box .content .center .five {
@@ -206,10 +210,11 @@ body {
 }
 
 .box .content .center .five .repwd-ag {
-  width: 300px;
+  width: 100px;
   height: 40px;
   float: left;
   border: none;
+  outline: none;
 }
 
 .box .content .center .down {

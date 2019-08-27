@@ -309,7 +309,7 @@ table {
   width: 25%;
   height: 428px;
   float: left;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   cursor: pointer;
 }
 
@@ -318,14 +318,14 @@ table {
   height: 20px;
   color: #a06e37;
   background: #fffbdf;
-  border-color: #d5b480;
+  border-color: #e8e8e8;
   text-align: center;
   margin-left: 220px;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e8e8e8;
   border-radius: 13px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -433,7 +433,7 @@ table {
 .goods1 .top .big {
   width: 50%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -445,7 +445,7 @@ table {
 .goods1 .top .small {
   width: 25%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -454,14 +454,14 @@ table {
   height: 20px;
   color: #a06e37;
   background: #fffbdf;
-  border-color: #d5b480;
+  border-color: #e8e8e8;
   text-align: center;
   margin-left: 220px;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e8e8e8;
   border-radius: 13px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -535,7 +535,7 @@ table {
 .goods1 .down .small {
   width: 25%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -544,14 +544,14 @@ table {
   height: 20px;
   color: #a06e37;
   background: #fffbdf;
-  border-color: #d5b480;
+  border-color: #e8e8e8;
   text-align: center;
   margin-left: 220px;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e8e8e8;
   border-radius: 13px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -671,7 +671,7 @@ table {
   line-height: 35px;
   font-weight: 700;
   color: #666;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   border-radius: 10px;
   margin-top: 15px;
 }
@@ -693,7 +693,7 @@ table {
 .goods2 .top .big {
   width: 50%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -705,7 +705,7 @@ table {
 .goods2 .top .small {
   width: 25%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -714,14 +714,14 @@ table {
   height: 20px;
   color: #a06e37;
   background: #fffbdf;
-  border-color: #d5b480;
+  border-color: #e8e8e8;
   text-align: center;
   margin-left: 220px;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e8e8e8;
   border-radius: 13px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -795,7 +795,7 @@ table {
 .goods2 .down .small {
   width: 25%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -804,14 +804,14 @@ table {
   height: 20px;
   color: #a06e37;
   background: #fffbdf;
-  border-color: #d5b480;
+  border-color: #e8e8e8;
   text-align: center;
   margin-left: 220px;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e8e8e8;
   border-radius: 13px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -919,7 +919,7 @@ table {
 .goods3 .top .big {
   width: 50%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -931,7 +931,7 @@ table {
 .goods3 .top .small {
   width: 25%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -940,14 +940,14 @@ table {
   height: 20px;
   color: #a06e37;
   background: #fffbdf;
-  border-color: #d5b480;
+  border-color: #e8e8e8;
   text-align: center;
   margin-left: 220px;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e8e8e8;
   border-radius: 13px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -1055,7 +1055,7 @@ table {
 .goods4 .top .big {
   width: 50%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -1067,7 +1067,7 @@ table {
 .goods4 .top .small {
   width: 25%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -1076,14 +1076,14 @@ table {
   height: 20px;
   color: #a06e37;
   background: #fffbdf;
-  border-color: #d5b480;
+  border-color: #e8e8e8;
   text-align: center;
   margin-left: 220px;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e8e8e8;
   border-radius: 13px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -1157,7 +1157,7 @@ table {
 .goods4 .down .small {
   width: 25%;
   height: 428px;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   float: left;
 }
 
@@ -1166,14 +1166,14 @@ table {
   height: 20px;
   color: #a06e37;
   background: #fffbdf;
-  border-color: #d5b480;
+  border-color: #e8e8e8;
   text-align: center;
   margin-left: 220px;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e8e8e8;
   border-radius: 13px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -1278,7 +1278,7 @@ table {
   width: 25%;
   height: 306px;
   float: left;
-  border: 1px solid #666;
+  border: 1px solid #e8e8e8;
   cursor: pointer;
 }
 
@@ -1471,5 +1471,42 @@ table {
   font-size: 12px;
   font-weight: 400;
   color: #bdbdbd;
+}
+
+.shadow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 251;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.shadow .img_box {
+  width: 300px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 0 auto;
+  min-width: 200px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+.shadow .img_box img {
+  width: 300px;
+  height: 400px;
 }
 /*# sourceMappingURL=smartisan1.css.map */

@@ -40,10 +40,53 @@
     <!-------------------------- 地址 -------------------------->
     <div class="big_box">
         <div class="head">
-           
+            <p>收货信息</p>
         </div>
-      
+        <div class="address">
+            <div class="choose">
+                <p class="p1">+</p>
+                <p class="p2">使用新地址</p>
+            </div>
+        </div>
     </div>
+
+    <!------------------------------------ 遮罩层 ------------------------------------->
+
+    <div class="shadow">
+        <div class="center1">
+            <div class="head">
+                <h4>管理收货地址</h4>
+            </div>
+            <div class="foot">
+                <div class="one"><input type="text" name="" id="name" placeholder="收货人姓名"></div>
+                <div class="two"><input type="text" name="" id="tel" placeholder="手机号"></div>
+                <div class="three"><input type="text" name="" id="" placeholder="区号（可选）"></div>
+                <div class="four"><input type="text" name="" id="" placeholder="固定电话（可选）"></div>
+          
+                <select id="prov" name="prov" onchange="showCity(this)">
+                    <option>请选择省份</option>
+                </select>
+                <!-- 城市选择 -->
+                <select id="city" onchange="showCountry(this)">
+                    <option>请选择城市</option>
+                </select>
+                <!-- 区县选择 -->
+                <select id="country" onchange="selectCountry(this)">
+                    <option>请选择县区</option>
+                </select>
+
+                <div class="down">
+                    <button class="cancel">取消</button>
+                    <button class="save">保存</button>
+                </div> 
+
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 
 
@@ -92,5 +135,9 @@
         </div>
     </div>
 </body>
+<script src="./src/js/jquery-1.11.3.js"></script>
+<script src="./src/js/address.js"></script>
 
+<script src="./src/mockdata/addinfo.js"></script>
+<script src="./layer-v3.1.1/layer/layer.js"></script>
 </html>
