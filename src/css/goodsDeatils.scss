@@ -129,13 +129,49 @@ table{border-collapse: collapse;}
                 width: 610px;
                 height: 500px;
                 float: left;
-                .box{
+                .small_box{
                     width: 500px;
                     height: 500px;
                     margin: 0 auto;
-                    background-image: url(../img/trunk.png);
-                    background-size: 500px 500px;         
+                    position: relative;
+                    img{
+                        width: 500px;
+                        height: 500px;
+                    }
+                    .mask{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(0, 0, 0, 0.5);
+                        opacity: 0;
+                        z-index: 2;
+                        cursor: move;
+                    }
+                    .float_layer{
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        background: rgba(0, 0, 0, 0.5);
+                        display: none;
+                    }
                 }
+                .big_box{
+                    position: absolute;
+                    left: 750px;
+                    top: 100px;
+                    width: 600px;
+                    height: 600px;
+                    overflow: hidden;
+                    display: none;
+                    border: 1px solid #e8e8e8;
+                    border-radius: 20px;
+                    img{
+                        position: absolute;
+                        width: 1200px;
+                        height: 1200px;
+                    }
+                }
+
             }
             .detils{
                 width: 610px;
@@ -522,7 +558,6 @@ table{border-collapse: collapse;}
             height: 61px;
             position: sticky;
             bottom: 0;
-            padding-top: 100px;
             background: #e8e8e8;
             .center{
                 width: 1220px;
