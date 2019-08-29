@@ -182,38 +182,38 @@ table {
   float: right;
 }
 
-#boss .content {
+#boss #content {
   height: 500px;
   margin-top: 53px;
   border-bottom: 1px solid #e8e8e8;
 }
 
-#boss .content .content-center {
+#boss #content .content-center {
   width: 1220px;
   height: 500px;
   margin: 0 auto;
   clear: both;
 }
 
-#boss .content .content-center .imgbox {
+#boss #content .content-center .imgbox {
   width: 610px;
   height: 500px;
   float: left;
 }
 
-#boss .content .content-center .imgbox .small_box {
+#boss #content .content-center .imgbox .small_box {
   width: 500px;
   height: 500px;
   margin: 0 auto;
   position: relative;
 }
 
-#boss .content .content-center .imgbox .small_box img {
+#boss #content .content-center .imgbox .small_box .goods_imgs_small {
   width: 500px;
   height: 500px;
 }
 
-#boss .content .content-center .imgbox .small_box .mask {
+#boss #content .content-center .imgbox .small_box .mask {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -223,7 +223,7 @@ table {
   cursor: move;
 }
 
-#boss .content .content-center .imgbox .small_box .float_layer {
+#boss #content .content-center .imgbox .small_box .float_layer {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -231,7 +231,7 @@ table {
   display: none;
 }
 
-#boss .content .content-center .imgbox .big_box {
+#boss #content .content-center .imgbox .big_box {
   position: absolute;
   left: 750px;
   top: 100px;
@@ -244,65 +244,65 @@ table {
   border-radius: 20px;
 }
 
-#boss .content .content-center .imgbox .big_box img {
+#boss #content .content-center .imgbox .big_box .goods_imgs_big {
   position: absolute;
   width: 1200px;
   height: 1200px;
 }
 
-#boss .content .content-center .detils {
+#boss #content .content-center .detils {
   width: 610px;
   height: 500px;
   float: left;
 }
 
-#boss .content .content-center .detils .one {
+#boss #content .content-center .detils .one {
   width: 610px;
   height: 105px;
   border-bottom: 1px solid #e8e8e8;
 }
 
-#boss .content .content-center .detils .one h1 {
+#boss #content .content-center .detils .one .goods_name {
   font-size: 30px;
   color: #000;
   line-height: 1;
   font-weight: 600;
 }
 
-#boss .content .content-center .detils .one h2 {
+#boss #content .content-center .detils .one .goods_desc {
   color: #999;
   line-height: 25pxl;
   padding-top: 20px;
   font-weight: 400;
 }
 
-#boss .content .content-center .detils .two {
+#boss #content .content-center .detils .two {
   width: 610px;
   height: 114px;
   border-bottom: 1px solid #e8e8e8;
   overflow: hidden;
 }
 
-#boss .content .content-center .detils .two .left {
+#boss #content .content-center .detils .two .left {
   width: 85px;
   height: 114px;
   float: left;
 }
 
-#boss .content .content-center .detils .two .left span {
+#boss #content .content-center .detils .two .left span {
   color: #666;
   font-size: 14px;
   margin-top: 30px;
   display: block;
 }
 
-#boss .content .content-center .detils .two .right {
+#boss #content .content-center .detils .two .right {
   width: 525px;
   height: 114px;
   float: left;
 }
 
-#boss .content .content-center .detils .two .right .fir-span {
+#boss #content .content-center .detils .two .right .fir-span {
   display: block;
   width: 42px;
   height: 18px;
@@ -316,7 +316,7 @@ table {
   margin-top: 20px;
 }
 
-#boss .content .content-center .detils .two .right .fir-p {
+#boss #content .content-center .detils .two .right .fir-p {
   display: block;
   font-size: 12px;
   color: gray;
@@ -325,7 +325,7 @@ table {
   margin-top: 20px;
 }
 
-#boss .content .content-center .detils .two .right .sec-span {
+#boss #content .content-center .detils .two .right .sec-span {
   display: block;
   width: 42px;
   height: 18px;
@@ -340,7 +340,7 @@ table {
   margin-left: -264px;
 }
 
-#boss .content .content-center .detils .two .right .sec-p {
+#boss #content .content-center .detils .two .right .sec-p {
   display: block;
   font-size: 12px;
   color: gray;
@@ -350,45 +350,45 @@ table {
   text-indent: -220px;
 }
 
-#boss .content .content-center .three {
+#boss #content .content-center .three {
   width: 610px;
   height: 100px;
   clear: both;
 }
 
-#boss .content .content-center .three .left {
+#boss #content .content-center .three .left {
   width: 85px;
   height: 100px;
   float: left;
 }
 
-#boss .content .content-center .three .left span {
+#boss #content .content-center .three .left span {
   color: #666;
   font-size: 14px;
   margin-top: 30px;
   display: block;
 }
 
-#boss .content .content-center .three .right {
+#boss #content .content-center .three .right {
   width: 525px;
   height: 100px;
   float: left;
   border-bottom: 1px dashed #e8e8e8;
 }
 
-#boss .content .content-center .three .right .box1 {
+#boss #content .content-center .three .right .box1 {
   width: 100px;
   height: 100px;
   float: left;
 }
 
-#boss .content .content-center .three .right .box1 img {
+#boss #content .content-center .three .right .box1 img {
   display: block;
   margin-top: 27px;
   cursor: pointer;
 }
 
-#boss .content .content-center .three .right .box1 span {
+#boss #content .content-center .three .right .box1 span {
   display: block;
   margin-left: 50px;
   margin-top: -34px;
@@ -398,19 +398,19 @@ table {
   cursor: pointer;
 }
 
-#boss .content .content-center .three .right .box2 {
+#boss #content .content-center .three .right .box2 {
   width: 100px;
   height: 100px;
   float: left;
 }
 
-#boss .content .content-center .three .right .box2 img {
+#boss #content .content-center .three .right .box2 img {
   display: block;
   margin-top: 27px;
   cursor: pointer;
 }
 
-#boss .content .content-center .three .right .box2 span {
+#boss #content .content-center .three .right .box2 span {
   display: block;
   margin-left: 50px;
   margin-top: -34px;
@@ -420,33 +420,33 @@ table {
   cursor: pointer;
 }
 
-#boss .content .content-center .four {
+#boss #content .content-center .four {
   width: 610px;
   height: 100px;
   border-bottom: 1px solid #e8e8e8;
   clear: both;
 }
 
-#boss .content .content-center .four .left {
+#boss #content .content-center .four .left {
   width: 85px;
   height: 100px;
   float: left;
 }
 
-#boss .content .content-center .four .left span {
+#boss #content .content-center .four .left span {
   color: #666;
   font-size: 14px;
   margin-top: 30px;
   display: block;
 }
 
-#boss .content .content-center .four .right {
+#boss #content .content-center .four .right {
   width: 525px;
   height: 100px;
   float: left;
 }
 
-#boss .content .content-center .four .right .version {
+#boss #content .content-center .four .right .version {
   width: 100px;
   height: 50px;
   border: 1px solid #333;
@@ -456,13 +456,13 @@ table {
   margin-top: 15px;
 }
 
-#boss .content .content-center .five {
+#boss #content .content-center .five {
   width: 610px;
   height: 70px;
   clear: both;
 }
 
-#boss .content .content-center .five span {
+#boss #content .content-center .five span {
   color: #666;
   font-size: 14px;
   margin-top: 30px;
@@ -470,7 +470,7 @@ table {
   float: left;
 }
 
-#boss .content .content-center .five .sec-span {
+#boss #content .content-center .five .sec-span {
   font-size: 12px;
   color: #999;
   display: block;
@@ -727,7 +727,7 @@ table {
   float: right;
 }
 
-#boss .bug .center .right .price {
+#boss .bug .center .right .goods_price {
   width: 90px;
   height: 43px;
   display: block;

@@ -131,6 +131,7 @@ body{
             background-color: #e8e8e8;
             margin-top: 30px;
             margin-left: 30px;
+            float: left;
             .p1{
                 display: block;
                 color: #626262;
@@ -146,9 +147,80 @@ body{
                 text-indent: 80px;
             }
         }
+        .choose2{
+            width: 276px;
+            height: 158px;
+            border: 1px solid #e5e5e5;
+            border-radius: 3px;
+            line-height: 14px;
+            color: #626262;
+            cursor: pointer;
+            background-color: #e8e8e8;
+            margin-top: 30px;
+            margin-left: 30px;
+            float: left;
+            display: none;
+            .p1{
+                display: block;
+                color: #626262;
+                width: 276px;
+                height: 38px;
+                text-align: center;
+                line-height: 38px;
+            }
+            .p2{
+                display: block;
+                color: #999;
+                width: 276px;
+                height: 38px;
+                text-align: center;
+                line-height: 38px;
+            }
+            .p3{
+                display: block;
+                color: #999;
+                width: 276px;
+                height: 38px;
+                text-align: center;
+                line-height: 38px;
+            }
+            .p4{
+                display: block;
+                color: #999;
+                width: 276px;
+                height: 38px;
+                text-align: center;
+                line-height: 38px;
+            }
+        }
     }
 }
 
+
+// .catbox{
+//     width: 1220px;
+//     margin: 50px auto;
+//     border: 1px solid #e8e8e8;
+//     border-radius: 8px;
+//     .head{
+//         width: 1220px;
+//         height: 50px;
+//         border-radius: 8px 8px 0 0;
+//         box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+//         margin: 0 auto;
+//         p{
+//             font-size: 18px;
+//             color: #626262;
+//             line-height: 50px;
+//             margin-left: 50px;
+//             font-weight: 700;
+//         }
+//     }
+//     .shop_list{
+//         text-align: center;
+//         width: 100%;
+//     }
+// }
 ////////////////遮罩层////////////////////////////////
 
 .shadow{
@@ -201,7 +273,7 @@ body{
                 line-height: 32px;
                 font-size: 14px;
                 position: absolute;top:20px;left:20px;  
-                #name{
+                #username{
                     width: 100%;
                     height: 100%;
                     border: none;
@@ -218,7 +290,7 @@ body{
                 line-height: 32px;
                 font-size: 14px;
                 position: absolute;top:70px;left:20px; 
-                #tel{
+                #telephone{
                     width: 100%;
                     height: 100%;
                     border: none;

@@ -1,3 +1,18 @@
+
+$(".cancel").click(function () {
+    $(".shadow").hide();
+})
+
+$(".person").click(function () {
+    location.href = "register.html";
+})
+$(".cart").click(function () {
+    location.href = "login.html";
+})
+
+
+
+
 //三级联动
 $(function () {
     var current_prov;
@@ -66,7 +81,6 @@ function showCountry(obj) {
         }
     }
 };
-
 function selectCountry(obj) {
     current_country = obj.options[obj.selectedIndex].value;
     $(".btn").disabled = false;
@@ -79,17 +93,86 @@ function showAddr() {
     $("#addr-show").val(ss);
 }
 
-$(".big_box .address").click(function () {
+
+
+
+
+$(".choose").click(function () {
     $(".shadow").show();
-   
-})
-$(".cancel").click(function(){
-    $(".shadow").hide();
+    var username = $("#username").val();
+    var telephone = $("#telephone").val();
+    var prov1 = $("#prov1").val();
+    var city1 = $("#city1").val();
+    var country1 = $("#country1").val();
+
+
+
+ 
+    ///console.log(username);
+
+
+
+    $(".save").click(function () {
+        $(".shadow").hide();
+        $(".choose2").show();
+        $.ajax({
+            type: 'GET',
+            url: `${location}/1907/0808/smartisan/address.php`,
+            data: {
+                username,
+                telephone,
+                prov1,
+                city1,
+                country1
+            },
+
+            success: data => {
+                layer.msg('添加地址成功')
+            }
+        })
+    })
+
+    $.ajax({
+        type: 'GET',
+        url: `${location}/1907/0808/smartisan/address2.php`,
+        datatype: 'json',
+        success: data => {
+
+            //console.log(data);
+            data = JSON.parse(data);
+            console.log(data)
+            var { data } = data;
+            //console.log(data);
+            var html = '';
+            data.forEach(({ username, telephone, prov1, city1, country1 }) => {
+                html += `
+                <div class="choose">
+                    <p class="p1">+</p>
+                    <p class="p2">使用新地址</p>
+                </div>
+                <div class="choose2">
+                    <p class="p1">收货人:${username}</p>
+                    <p class="p2">联系电话:${telephone}</p>
+                    <p class="p3">地址:${prov1}${city1}${country1}</p>
+                    <p class="p4"></p>
+                </div>
+                `
+                $('.choose2').show();
+            }),
+                $(".address").html(html);
+
+        }
+       
+    })
+    
 })
 
-$(".person").click(function(){
-    location.href="register.html";
-})
-$(".cart").click(function(){
-    location.href="login.html";
-})
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body, p, h1, h2, h4, h5, h6, h3, ul, ol, dl, td, dd, input, textarea, option, hr, button, fieldset, legend, figure {
   margin: 0;
   padding: 0;
@@ -165,6 +166,57 @@ body {
   margin-left: 15px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+* + html .clearfix {
+  min-height: 1%;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+}
+
+body {
+  color: #666;
+  font: 12px/180% Arial, Helvetica, sans-serif, "新宋体";
+}
+
+clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-table;
+  display: block;
+}
+
+*html .clearfix {
+  height: 1%;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
 .catbox {
   width: 1220px;
   margin: 100px auto;
@@ -186,11 +238,12 @@ body {
   color: #444;
 }
 
-.catbox table tbody tr:hover {
+.catbox table .tbody .tr_id:hover {
   background: RGB(238, 246, 255);
 }
 
-.catbox table th, .catbox table td {
+.catbox table th,
+.catbox table td {
   border: 1px solid #cadeff;
 }
 
@@ -206,14 +259,14 @@ body {
   width: 300px;
 }
 
-.goods span {
+.goods .goods_name {
   width: 180px;
   margin-top: 20px;
   text-align: left;
   float: left;
 }
 
-.goods img {
+.goods .goods_imgs_small {
   width: 100px;
   height: 80px;
   margin-right: 10px;
@@ -240,14 +293,17 @@ body {
   z-index: 2;
 }
 
-.count .add, .count input, .count .reduce {
+.count .add,
+.count input,
+.count .reduce {
   float: left;
   margin-right: -1px;
   position: relative;
   z-index: 0;
 }
 
-.count .add, .count .reduce {
+.count .add,
+.count .reduce {
   height: 23px;
   width: 17px;
   border: 1px solid #e5e5e5;
@@ -257,7 +313,8 @@ body {
   color: #444;
 }
 
-.count .add:hover, .count .reduce:hover {
+.count .add:hover,
+.count .reduce:hover {
   color: #f50;
   z-index: 3;
   border-color: #f60;
@@ -270,7 +327,8 @@ body {
   font-weight: bold;
 }
 
-.operation span:hover, a:hover {
+.operation span:hover,
+a:hover {
   cursor: pointer;
   color: red;
   text-decoration: underline;
@@ -375,12 +433,14 @@ body {
   bottom: 1px;
 }
 
-.foot div, .foot a {
+.foot div,
+.foot a {
   line-height: 48px;
   height: 48px;
 }
 
-.foot #priceTotal, .foot #selectedTotal {
+.foot #priceTotal,
+.foot #selectedTotal {
   color: red;
   font-family: "Microsoft Yahei";
   font-weight: bold;

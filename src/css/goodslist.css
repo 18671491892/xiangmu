@@ -261,39 +261,37 @@ table {
 }
 
 .bg-list {
-  height: 430px;
   background: #e8e8e8;
 }
 
 .bg-list .list {
   width: 1220px;
-  height: 430px;
   margin: 0 auto;
   border: 1px solid #e8e8e8;
   border-radius: 8px;
   background: #fff;
 }
 
-.bg-list .list ul {
+.bg-list .list #big {
   width: 1220px;
   height: 430px;
   clear: both;
 }
 
-.bg-list .list ul li {
+.bg-list .list #big .goods {
   display: inline;
   float: left;
   margin: 0 10px;
 }
 
-.bg-list .list ul li .small {
+.bg-list .list #big .goods .small {
   width: 297px;
   height: 428px;
   border: 1px solid #e8e8e8;
   float: left;
 }
 
-.bg-list .list ul li .small .block {
+.bg-list .list #big .goods .small .block {
   width: 70px;
   height: 20px;
   color: #a06e37;
@@ -311,7 +309,7 @@ table {
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
 }
 
-.bg-list .list ul li .small .ph {
+.bg-list .list #big .goods .small .ph {
   display: block;
   width: 216px;
   height: 216px;
@@ -319,12 +317,12 @@ table {
   padding: 18px 0 20px;
 }
 
-.bg-list .list ul li .small .ph img {
+.bg-list .list #big .goods .small .ph .goods_imgs_small {
   width: 216px;
   height: 216px;
 }
 
-.bg-list .list ul li .small .text {
+.bg-list .list #big .goods .small .text {
   width: 288px;
   height: 16px;
   position: relative;
@@ -333,7 +331,7 @@ table {
   margin: 0 auto;
 }
 
-.bg-list .list ul li .small .text h4 {
+.bg-list .list #big .goods .small .text .goods_name {
   line-height: 1.2;
   font-size: 14px;
   color: #333;
@@ -344,7 +342,7 @@ table {
   white-space: nowrap;
 }
 
-.bg-list .list ul li .small .text2 {
+.bg-list .list #big .goods .small .text2 {
   width: 288px;
   height: 16px;
   position: relative;
@@ -353,7 +351,12 @@ table {
   margin: 0 auto;
 }
 
-.bg-list .list ul li .small .foot {
+.bg-list .list #big .goods .small .text2 .goods_desc {
+  font-size: 12px;
+  text-align: center;
+}
+
+.bg-list .list #big .goods .small .goods_price {
   font-size: 18px;
   width: 304px;
   height: 20px;

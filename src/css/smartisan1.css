@@ -8,14 +8,6 @@ a {
   color: #666;
 }
 
-a:link {
-  color: #666;
-}
-
-a:hover {
-  color: #333;
-}
-
 li {
   list-style: none;
 }
@@ -239,6 +231,42 @@ table {
   border-radius: 9px;
   margin-top: 8px;
   margin-right: 8px;
+}
+
+.sub .userinfo {
+  width: 145px;
+  height: 280px;
+  margin-top: -75px;
+  background: #e8e8e8;
+  float: right;
+  display: none;
+}
+
+.sub .userinfo ul {
+  width: 145px;
+  height: 280px;
+  float: right;
+}
+
+.sub .userinfo ul li:first-child {
+  display: block;
+  width: 145px;
+  height: 40px;
+  text-align: center;
+}
+
+.sub .userinfo li {
+  display: block;
+  width: 145px;
+  height: 40px;
+  text-align: center;
+}
+
+.sub .userinfo ul li:last-child {
+  display: block;
+  width: 145px;
+  height: 40px;
+  text-align: center;
 }
 
 #myCarousel {

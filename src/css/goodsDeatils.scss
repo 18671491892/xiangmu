@@ -116,7 +116,7 @@ table{border-collapse: collapse;}
             }
         }
     }
-    .content{
+    #content{
         height: 500px;
         margin-top: 53px;
         border-bottom: 1px solid #e8e8e8;
@@ -134,7 +134,7 @@ table{border-collapse: collapse;}
                     height: 500px;
                     margin: 0 auto;
                     position: relative;
-                    img{
+                    .goods_imgs_small{
                         width: 500px;
                         height: 500px;
                     }
@@ -166,7 +166,7 @@ table{border-collapse: collapse;}
                     display: none;
                     border: 1px solid #e8e8e8;
                     border-radius: 20px;
-                    img{
+                    .goods_imgs_big{
                         position: absolute;
                         width: 1200px;
                         height: 1200px;
@@ -182,13 +182,13 @@ table{border-collapse: collapse;}
                     width: 610px;
                     height: 105px;
                     border-bottom: 1px solid #e8e8e8;
-                    h1{
+                    .goods_name{
                         font-size: 30px;
                         color: #000;
                         line-height: 1;
                         font-weight: 600;
                     }
-                    h2{
+                    .goods_desc{
                         color: #999;
                         line-height: 25pxl;
                         padding-top: 20px;
@@ -607,7 +607,7 @@ table{border-collapse: collapse;}
                     width: 400px;
                     height: 61px;
                     float: right;
-                    .price{
+                    .goods_price{
                         width: 90px;
                         height: 43px;
                         display: block;

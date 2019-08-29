@@ -1,7 +1,5 @@
 body,p,h1,h2,h4,h5,h6,h3,ul,ol,dl,td,dd,input,textarea,option,hr,button,fieldset,legend,figure{margin:0; padding:0;}
 a{text-decoration: none; color: #666;}
-a:link{color: #666;}
-a:hover{color: #333;}
 li{list-style: none;}
 body{font:14px "YaHei";}
 img{vertical-align: top;/*display:block;*/ border: none;}
@@ -168,6 +166,38 @@ table{border-collapse: collapse;}
                 }
             }
            
+        }
+    }
+    .userinfo{
+        width: 145px;
+        height: 280px;
+        margin-top: -75px;
+        background: #e8e8e8;
+        float: right;
+        display: none;
+        ul{
+        width: 145px;
+        height: 280px;
+        float: right;
+        
+        }
+        ul li:first-child{
+            display: block;
+            width: 145px;
+            height: 40px;
+            text-align: center;
+        }
+        li{
+            display: block;
+            width: 145px;
+            height: 40px;
+            text-align: center;
+        }
+        ul li:last-child{
+            display: block;
+            width: 145px;
+            height: 40px;
+            text-align: center;
         }
     }
 }
