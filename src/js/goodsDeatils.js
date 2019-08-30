@@ -42,7 +42,7 @@ var goods_id = queryString('id');
 
 $.ajax({
     type: 'GET',
-    url: `${location}/1907/0808/smartisan/goodsDeatils.php`,
+    url: `//${location.hostname}/1907/0808/smartisan/goodsDeatils.php`,
 
     data: {
         goods_id
@@ -277,7 +277,7 @@ $.ajax({
 
             $.ajax({
                 type: 'GET',
-                url: "http://localhost/1907/0808/smartisan/cart.php",
+                url: `//${location.hostname}/1907/0808/smartisan/cart.php`,
 
                 data: {
                     goods_price,

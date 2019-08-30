@@ -2,7 +2,7 @@ $(document).on('click','.btn',function(){
     var telephone = $('.telephone').val();
     var password = $('.password').val();
      ajax({
-            path: `${location.orgin}/1907/0808/smartisan/login.php`,
+            path: `//${location.hostname}/1907/0808/smartisan/login.php`,
             data: {
                 telephone,
                 password
@@ -23,7 +23,7 @@ $(document).on('click','.btn',function(){
                     setCookie('login_user', telephone, 7);
 
                     layer.msg('登录成功')
-                    location.href = 'smartisan1.html';
+                    location.href = 'index.html';
                 }
             }
         })

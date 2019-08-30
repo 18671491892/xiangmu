@@ -28,7 +28,7 @@ layui.use('laypage', function () {
     function renderList(page = 1,tag) {
         $.ajax({
             type: 'GET',
-            url: `${location}/1907/0808/smartisan/goodslist.php`,
+            url: `//${location.hostname}/1907/0808/smartisan/goodslist.php`,
             data: {
                page,
                size:3,

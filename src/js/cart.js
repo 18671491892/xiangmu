@@ -8,7 +8,7 @@ $(".cart").click(function () {
 
 $.ajax({
     type: 'GET',
-    url: `${location}/1907/0808/smartisan/cart2.php`,
+    url: `//${location.hostname}/1907/0808/smartisan/cart2.php`,
 
 
     dataType: 'json',

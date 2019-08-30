@@ -117,7 +117,7 @@ $(".choose").click(function () {
         $(".choose2").show();
         $.ajax({
             type: 'GET',
-            url: `${location}/1907/0808/smartisan/address.php`,
+            url: `//${location.hostname}/1907/0808/smartisan/address.php`,
             data: {
                 username,
                 telephone,
@@ -134,7 +134,7 @@ $(".choose").click(function () {
 
     $.ajax({
         type: 'GET',
-        url: `${location}/1907/0808/smartisan/address2.php`,
+        url: `//${location.hostname}/1907/0808/smartisan/address2.php`,
         datatype: 'json',
         success: data => {
 

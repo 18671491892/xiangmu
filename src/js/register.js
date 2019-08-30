@@ -20,7 +20,7 @@ $(document).on('click','.btn2',function(){
                 if(tag_check){
                     $.ajax({
                         type: 'GET',
-                        url: `${location.orgin}/1907/0808/smartisan/register.php`,
+                        url: `//${location.hostname}/1907/0808/smartisan/register.php`,
                         data: {
                             username,
                             telephone,
